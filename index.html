@@ -1,1 +1,104 @@
-Hello World
+<!doctype html>
+
+<head>
+  <link rel="shortcut icon" href="src/assets/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="src/assets/logo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="og:site_name" content="Nogizaka46 Oshimen Sorting">
+  <meta name="og:description" content="A simple website for sorting Nogizaka46 members in a formatted list.">
+  <meta name="og:image" content="https://i.imgur.com/IZzJMk6.jpg">
+  <title>Nogizaka46 members Sorting</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="src/css/mystyle.css">
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2023-01-01.js"></script>
+
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <h1>Nogizaka46 members sorter</h1>
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="progress">
+            <div class="progStyle">
+                <span class="progressbattle"></span>
+                <div class="progressbar">
+                    <div class="progressfill"><span class="progresstext"></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sorter">
+            <div class="leftImg">
+                <div class="imgBlock">
+                    <img src="src/assets/defaultL.jpg" class="left sort image">
+                </div>
+                <div class="left sort text"><p></p></div>
+            </div>
+
+            <div class="startStyle">
+                <div class="starting start button">Nogizaka46 Oshimen Sorter<br><br>Click to Start!</div>
+                <div class="starting load button">Load <span></span></div>
+    
+                <div class="loading button"><div></div><span>Loading...</span></div>
+            </div>
+
+            <div class="happening">
+                <div class="sorting tie button">Tie</div>
+                <div class="sorting undo button">Undo</div>
+                <div class="sorting save button">Save Progress</div>
+            </div>
+            <div class="generating">
+                <div class="finished save button">Generate Result URL</div>
+                <div class="finished getimg button">Generate Image</div>
+                <div class="finished list button">Generate Text List</div>
+            </div>
+
+            <div class="rightImg">
+                <div class="imgBlock">
+                    <img src="src/assets/defaultR.jpg" class="right sort image">
+                </div>
+                <div class="right sort text"><p></p></div>
+            </div>
+
+        </div>
+
+        <div class="options"></div>
+        <div class="image selector">Display Images on Result: </div>
+        <div class="time taken"></div>
+        <div class="results"></div>
+
+        <div class="info">
+            <a href="https://github.com/execfera/charasort/">Source Code</a> | <a href="?IwVmE4CZNAGSBs5YB8QA5zAMzoCwqzCxEmnDGVkkUXVHEON1lW0tPOn1s9suNyTGr3Y0G3QcN4SBQunNaCxC+pPLsuqreNob5MylKOtuk5RoWGlenhM63TInfyNSRS-aKuaDV+7bKjrJ8wbpClhyu1BZ6bnKG8R5m5kHOHly6gariITE2vvyRxpocZtqW8moxpZ7GGbmlmbGilZXe6j75CSGtLnbAhAxAA">Best Taste</a> | <a class="clearsave">Clear Save Data</a>
+            
+            <br><br>
+
+            <br><br>
+
+            <p>Keyboard controls during sorting: H/LeftArrow (pick left) J/DownArrow (undo) K/UpArrow (tie) L/RightArrow (pick right) S (save progress).</p>
+            <p>Before sorting: S/Enter (start sorting) L (load progress).
+            <p>1/2/3 always correspond to the first/second/third buttons.</p>
+            
+            <br><br>
+
+            <p>Inspired by <a href="http://mainyan.sakura.ne.jp/thsort.html">this site</a>.</p>
+            <br><br>
+
+            <p>Jan 4th, 2023 - First release</p>
+        </div>
+    </div>
+</body>
+
+</html>
