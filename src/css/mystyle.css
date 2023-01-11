@@ -117,9 +117,21 @@
     margin-bottom: auto;
 }
 
-@media all and (min-width: 1921px) {
+@media all and (max-width: 1921px) {
     .sorter {
-        justify-content: space-evenly !important;
+        width: 70% !important;
+    }
+}
+
+@media all and (max-width: 1348px) {
+    .sorter {
+        width: 80% !important;
+    }
+}
+
+@media all and (max-width: 1111px) {
+    .sorter {
+        width: 90% !important;
     }
 }
 
