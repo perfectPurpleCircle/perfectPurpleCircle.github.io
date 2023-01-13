@@ -18,13 +18,13 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
-  {
-    name: "Akimoto Manatsu",
-    img: "akimoto_manatsu.jpg",
-    opts: {
-      gen: [ "firstgen" ],
-    }
-  },
+  // {
+  //   name: "Akimoto Manatsu",
+  //   img: "akimoto_manatsu.jpg",
+  //   opts: {
+  //     gen: [ "firstgen" ],
+  //   }
+  // },
   // {
   //   name: "Saito Asuka",
   //   img: "saito_asuka.jpg",
@@ -196,6 +196,41 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Yakubo Mio",
     img: "yakubo_mio.jpg",
+    opts: {
+      gen: [ "fourthgen" ],
+    }
+  },
+  {
+    name: "Kuromi Haruka",
+    img: "kuromi_haruka.jpg",
+    opts: {
+      gen: [ "fourthgen" ],
+    }
+  },
+  {
+    name: "Sato Rika",
+    img: "sato_rika.jpg",
+    opts: {
+      gen: [ "fourthgen" ],
+    }
+  },
+  {
+    name: "Hayashi Runa",
+    img: "hayashi_runa.jpg",
+    opts: {
+      gen: [ "fourthgen" ],
+    }
+  },
+  {
+    name: "Matsuo Miyu",
+    img: "matsuo_miyu.jpg",
+    opts: {
+      gen: [ "fourthgen" ],
+    }
+  },
+  {
+    name: "Yumiki Nao",
+    img: "yumiki_nao.jpg",
     opts: {
       gen: [ "fourthgen" ],
     }
