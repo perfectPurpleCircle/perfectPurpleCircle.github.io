@@ -179,3 +179,7 @@
     font-family: serif;
     font-weight: bold;
 }
+
+.tips {
+    display: none;
+}
