@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.banner h1 {
+.banner h1 a {
     font-size: 3rem;
     font-weight: bold;
     color: white;
