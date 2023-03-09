@@ -665,7 +665,7 @@ function setLatestDataset() {
 /** Populate option list. */
 function populateOptions() {
   const optList = document.querySelector('.options');
-  const optInsert = (name, id, tooltip, checked = true, disabled = false) => {
+  const optInsert = (name, id, tooltip, checked, disabled = false) => {
     return `<div><label title="${tooltip?tooltip:name}"><input id="cb-${id}" type="checkbox" ${checked?'checked':''} ${disabled?'disabled':''}> ${name}</label></div>`;
   };
   const optInsertLarge = (name, id, tooltip, checked = true) => {
@@ -678,7 +678,7 @@ function populateOptions() {
   /** Insert sorter options and set grouped option behavior. */
   options.forEach(opt => {
     if ('sub' in opt) {
-      optList.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked));
+      optList.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked, opt.group));
       opt.sub.forEach((subopt, subindex) => {
         optList.insertAdjacentHTML('beforeend', optInsert(subopt.name, `${opt.key}-${subindex}`, subopt.tooltip, subopt.checked, opt.checked === false));
       });
@@ -693,7 +693,7 @@ function populateOptions() {
         });
       });
     } else {
-      optList.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked));
+      optList.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked, opt.group));
     }
   });
 }
