@@ -15,6 +15,7 @@ dataSet[dataSetVersion].options = [
       { name: "1st Gen Graduated", tooltip: "Only graduated 1st Gen members", key: "grad1", checked: false },
       { name: "2nd Gen Graduated", tooltip: "Only graduated 2nd Gen members", key: "grad2", checked: false },
       { name: "3rd Gen Graduated", tooltip: "Only graduated 3rd Gen members", key: "grad3", checked: false },
+      { name: "4th Gen Graduated", tooltip: "Only graduated 4th Gen members", key: "grad4", checked: false },
     ]
   },
   {
@@ -673,7 +674,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kitagawa Yuri",
     img: "kitagawa_yuri.jpg",
     opts: {
-      ngk46: [ "fourthgen" ],
+      ngk46: [ "fourthgen","grad4" ],
       skrk46: [],
       hntk46: []
     }
