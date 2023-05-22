@@ -676,7 +676,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [ "fourthgen","grad4" ],
       skrk46: [],
-      hntk46: []
+      hntk46: [],
+      gdt: true
     }
   },
   {
@@ -980,7 +981,7 @@ dataSet[dataSetVersion].characterData = [
     img: "seki_yumiko.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "2ndgenSak" ],
+      skrk46: [ "2ndgenSak","grad2Sak" ],
       hntk46: [],
       gdt: true,
     }
@@ -1176,7 +1177,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["1stgenHin"],
+      hntk46: ["1stgenHin", "grad1Hin"],
       gdt: true
     }
   },
