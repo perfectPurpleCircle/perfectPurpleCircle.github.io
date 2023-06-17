@@ -720,9 +720,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Hayakawa Seira",
     img: "hayakawa_seira.jpg",
     opts: {
-      ngk46: [ "fourthgen" ],
+      ngk46: [ "fourthgen", "grad4" ],
       skrk46: [],
-      hntk46: []
+      hntk46: [],
+      gdt: true
     }
   },
   {
