@@ -926,8 +926,9 @@ dataSet[dataSetVersion].characterData = [
     img: "habu_mizuho.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "1stgenSak" ],
-      hntk46: []
+      skrk46: [ "1stgenSak", "grad1Sak" ],
+      hntk46: [],
+      gdt: true
     }
   },
 
