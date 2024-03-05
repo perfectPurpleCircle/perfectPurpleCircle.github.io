@@ -1238,7 +1238,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["1stgenHin"],
+      hntk46: ["1stgenHin", "grad1Hin"],
+      gdt: true
     }
   },
   {
