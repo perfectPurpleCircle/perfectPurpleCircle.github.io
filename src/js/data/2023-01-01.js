@@ -614,8 +614,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Yoda Yuki",
-    img: "yoda_yuki.jpg",
+    name: "Yoda Yuuki",
+    img: "yoda_yuuki.jpg",
     opts: {
       ngk46: [ "thirdgen" ],
       skrk46: [],
@@ -1239,7 +1239,7 @@ dataSet[dataSetVersion].characterData = [
       ngk46: [],
       skrk46: [],
       hntk46: ["1stgenHin", "grad1Hin"],
-      gdt: true
+      gdt: true 
     }
   },
   {
