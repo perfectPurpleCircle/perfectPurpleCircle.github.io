@@ -562,9 +562,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Sakaguchi Tamami",
     img: "sakaguchi_tamami.jpg",
     opts: {
-      ngk46: [ "thirdgen" ],
+      ngk46: [ "thirdgen", "grad3" ],
       skrk46: [],
       hntk46: [],
+      gdt: true
     }
   },
   {
