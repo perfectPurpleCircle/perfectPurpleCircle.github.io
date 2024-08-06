@@ -1194,7 +1194,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["1stgenHin"],
+      hntk46: ["1stgenHin", "grad1Hin"],
+      gdt: true
     }
   },
   {
@@ -1250,7 +1251,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["1stgenHin"],
+      hntk46: ["1stgenHin", "grad1Hin"],
+      gdt: true 
     }
   },
   // 2nd GENERATION
@@ -1296,7 +1298,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["2ndgenHin"],
+      hntk46: ["2ndgenHin", "grad2Hin"],
+      gdt: true 
     }
   },
   {
@@ -1305,7 +1308,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["2ndgenHin"],
+      hntk46: ["2ndgenHin", "grad2Hin"],
+      gdt: true 
     }
   },
   {
