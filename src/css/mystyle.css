@@ -129,11 +129,11 @@
 
 @media all and (min-width: 2000px) {
     .sorter {
-        width: 40% !important;
+        width: 50% !important;
     }
 
     .imgBlock {
-        width: 500px;
+        width: 300px;
     }
 
     .leftImg .left,
