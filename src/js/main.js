@@ -278,7 +278,10 @@ function start() {
     const select = document.createElement('option');
     select.value = i;
     select.text = i;
-    if (i === 3) { select.selected = 'selected'; }
+    if (i === 3) { 
+      select.selected = 'selected'; 
+    
+    }
     document.querySelector('.image.selector > select').insertAdjacentElement('beforeend', select);
   }
 

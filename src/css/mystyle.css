@@ -59,7 +59,7 @@
 
 /* Sorter IMAGE */
 .sorter {
-    width: 50% !important;
+    width: 61% !important;
     display: flex;
     justify-content: center;
 }
@@ -70,6 +70,12 @@
     cursor: pointer;
     -webkit-box-shadow: 0px -1px 11px 4px rgba(0, 0, 0, 0.27);
     box-shadow: 0px -1px 11px 4px rgba(0, 0, 0, 0.27);
+
+}
+
+.imgBlock {
+    margin: 10px;
+    width: 350px;
 }
 
 .leftImg:hover,
@@ -79,9 +85,9 @@
 
 .leftImg .left,
 .rightImg .right {
-    padding: 1rem;
     text-align: center;
     font-size: 1.6rem;
+    width: inherit;
 }
 
 .leftImg .text,
@@ -121,9 +127,28 @@
     margin-bottom: auto;
 }
 
+@media all and (min-width: 2000px) {
+    .sorter {
+        width: 40% !important;
+    }
+
+    .imgBlock {
+        width: 500px;
+    }
+
+    .leftImg .left,
+    .rightImg .right {
+        font-size: 2rem;
+    }
+}
+
 @media all and (max-width: 1921px) {
     .sorter {
         width: 70% !important;
+    }
+
+    .imgBlock {
+        width: 250px;
     }
 }
 
