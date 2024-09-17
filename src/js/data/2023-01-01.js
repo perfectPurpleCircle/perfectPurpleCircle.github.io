@@ -894,8 +894,9 @@ dataSet[dataSetVersion].characterData = [
     img: "uemura_rina.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "1stgenSak" ],
-      hntk46: []
+      skrk46: [ "1stgenSak", "grad1Sak" ],
+      hntk46: [],
+      gdt: true
     }
   },
   {
@@ -922,8 +923,9 @@ dataSet[dataSetVersion].characterData = [
     img: "saito_fuyuka.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "1stgenSak" ],
-      hntk46: []
+      skrk46: [ "1stgenSak", "grad1Sak" ],
+      hntk46: [],
+      gdt: true
     }
   },
   {
