@@ -590,9 +590,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Mukai Hazuki",
     img: "mukai_hazuki.jpg",
     opts: {
-      ngk46: [ "thirdgen" ],
+      ngk46: [ "thirdgen", "grad3" ],
       skrk46: [],
       hntk46: [],
+      gdt: true
     }
   },
   {
