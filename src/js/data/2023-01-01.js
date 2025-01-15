@@ -906,8 +906,9 @@ dataSet[dataSetVersion].characterData = [
     img: "koike_minami.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "1stgenSak" ],
-      hntk46: []
+      skrk46: [ "1stgenSak", "grad1Sak" ],
+      hntk46: [],
+      gdt: true
     }
   },
   {
