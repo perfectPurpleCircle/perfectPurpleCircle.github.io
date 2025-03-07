@@ -572,9 +572,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Sato Kaede",
     img: "sato_kaede.jpg",
     opts: {
-      ngk46: [ "thirdgen" ],
+      ngk46: [ "thirdgen", "grad3" ],
       skrk46: [],
       hntk46: [],
+      gdt: true
     }
   },
   {
