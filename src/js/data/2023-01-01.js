@@ -11,6 +11,7 @@ dataSet[dataSetVersion].options = [
       { name: "3rd Gen", tooltip: "3rd generation", key: "thirdgen", checked: false },
       { name: "4th Gen", tooltip: "4th generation", key: "fourthgen", checked: false },
       { name: "5th Gen", tooltip: "5th generation", key: "fifthgen", checked: false },
+      { name: "6th Gen", tooltip: "6th generation", key: "sixthgen", checked: false },
       { name: "Kennin Member", tooltip: "Kennin Member", key: "kennin", checked: false },
       { name: "1st Gen Graduated", tooltip: "Only graduated 1st Gen members", key: "grad1", checked: false },
       { name: "2nd Gen Graduated", tooltip: "Only graduated 2nd Gen members", key: "grad2", checked: false },
@@ -890,6 +891,108 @@ dataSet[dataSetVersion].characterData = [
       hntk46: []
     }
   },
+
+  // Fifth Generation
+  {
+    name: "Atago Kokone",
+    img: "atago_kokone.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Okoshi Hinano",
+    img: "okoshi_hinano.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Ozu Reina",
+    img: "ozu_reina.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Kaibe Akari",
+    img: "kaibe_akari.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Kawabata Hina",
+    img: "kawabata_hina.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Suzuki Yuuna",
+    img: "suzuki_yuuna.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Setoguchi Mitsuki",
+    img: "setoguchi_mitsuki.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Masuda Mirine",
+    img: "masuda_mirine.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Morihira Urumi",
+    img: "morihira_urumi.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Nagashima Rio",
+    img: "nagashima_rio.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+  {
+    name: "Yada Moeka",
+    img: "yada_moeka.jpg",
+    opts: {
+      ngk46: [ "sixthgen" ],
+      skrk46: [],
+      hntk46: []
+    }
+  },
+
 
 /* Sakurazaka46 */  
   // 1st GENERATION
