@@ -892,7 +892,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 
-  // Fifth Generation
+  // Sixth Generation
   {
     name: "Atago Kokone",
     img: "atago_kokone.jpg",
