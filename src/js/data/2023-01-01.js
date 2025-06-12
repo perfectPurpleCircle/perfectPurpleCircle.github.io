@@ -28,6 +28,7 @@ dataSet[dataSetVersion].options = [
       { name: "1st Gen", tooltip: "1st generation", key: "1stgenSak", checked: false },
       { name: "2nd Gen", tooltip: "2nd generation", key: "2ndgenSak", checked: false },
       { name: "3rd Gen", tooltip: "3rd generation", key: "3rdgenSak", checked: false },
+      { name: "4th Gen", tooltip: "4th generation", key: "4thgenSak", checked: false },
       { name: "1st Gen Graduated", tooltip: "Only graduated 1st Gen members", key: "grad1Sak", checked: false },
       { name: "2nd Gen Graduated", tooltip: "Only graduated 2nd Gen members", key: "grad2Sak", checked: false },
     ]
@@ -42,6 +43,7 @@ dataSet[dataSetVersion].options = [
       { name: "2nd Gen", tooltip: "2nd generation", key: "2ndgenHin", checked: false },
       { name: "3rd Gen", tooltip: "3rd generation", key: "3rdgenHin", checked: false },
       { name: "4th Gen", tooltip: "4th generation", key: "4thgenHin", checked: false },
+      { name: "5th Gen", tooltip: "5th generation", key: "5thgenHin", checked: false },
       { name: "1st Gen Graduated", tooltip: "Only graduated 1st Gen members", key: "grad1Hin", checked: false },
       { name: "2nd Gen Graduated", tooltip: "Only graduated 2nd Gen members", key: "grad2Hin", checked: false },
     ]
@@ -1277,6 +1279,89 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 
+  // 4th Generation
+  {
+    name: "Asai Konomi",
+    img: "asai_konomi.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },
+  {
+    name: "Inaguma Hina",
+    img: "inaguma_hina.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },  
+  {
+    name: "Katsumata Haru",
+    img: "katsumata_haru.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },
+  {
+    name: "Sato Neo",
+    img: "sato_neo.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },
+  {
+    name: "Nakagawa Chihiro",
+    img: "nakagawa_chihiro.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },
+  {
+    name: "Matsumoto Wako",
+    img: "matsumoto_wako.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },
+  {
+    name: "Meguro Hiiro",
+    img: "meguro_hiiro.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  }, 
+  {
+    name: "Yamakawa Ui",
+    img: "yamakawa_ui.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },
+  {
+    name: "Yamada Momomi",
+    img: "yamada_momomi.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [ "4thgenSak" ],
+      hntk46: []
+    }
+  },     
+
 /* Hinatazaka46 */  
   // 1st GENERATION
   {
@@ -1583,6 +1668,98 @@ dataSet[dataSetVersion].characterData = [
       ngk46: [],
       skrk46: [],
       hntk46: ["4thgenHin"],
+    }
+  },
+
+    // 5th GENERATION
+  {
+    name: "Ota Mizuki",
+    img: "ota_mizuki.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Ono Manami",
+    img: "ono_manami.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Katayama Saki",
+    img: "katayama_saki.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Kuramori Hinano",
+    img: "kuramori_hinano.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Sakai Nina",
+    img: "sakai_nina.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Sato Yu",
+    img: "sato_yu.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Shimoda Izuki",
+    img: "shimoda_izuki.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+    {
+    name: "Takai Rika",
+    img: "takai_rika.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+      {
+    name: "Tsurusaki Niko",
+    img: "tsurusaki_niko.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
+    }
+  },
+      {
+    name: "Matsuo Sakura",
+    img: "matsuo_sakura.jpg",
+    opts: {
+      ngk46: [],
+      skrk46: [],
+      hntk46: ["5thgenHin"],
     }
   },
   
