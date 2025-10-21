@@ -742,9 +742,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Yakubo Mio",
     img: "yakubo_mio.jpg",
     opts: {
-      ngk46: [ "fourthgen" ],
+      ngk46: [ "fourthgen", "grad4" ],
       skrk46: [],
-      hntk46: []
+      hntk46: [],
+      gdt: true
     }
   },
   {
