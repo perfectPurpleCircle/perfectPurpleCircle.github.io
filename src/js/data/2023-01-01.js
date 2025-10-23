@@ -779,9 +779,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Matsuo Miyu",
     img: "matsuo_miyu.jpg",
     opts: {
-      ngk46: [ "fourthgen" ],
+      ngk46: [ "fourthgen", "grad4" ],
       skrk46: [],
-      hntk46: []
+      hntk46: [],
+      gdt: true
     }
   },
   {
