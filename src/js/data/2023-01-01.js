@@ -1114,8 +1114,9 @@ dataSet[dataSetVersion].characterData = [
     img: "takemoto_yui.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "2ndgenSak" ],
-      hntk46: []
+      skrk46: [ "2ndgenSak","grad2Sak" ],
+      hntk46: [],
+      gdt: true,
     }
   },
   {
