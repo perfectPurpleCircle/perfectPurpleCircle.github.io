@@ -761,9 +761,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Sato Rika",
     img: "sato_rika.jpg",
     opts: {
-      ngk46: [ "fourthgen" ],
+      ngk46: [ "fourthgen", "grad4" ],
       skrk46: [],
-      hntk46: []
+      hntk46: [],
+      gdt: true
     }
   },
   {
