@@ -547,9 +547,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Umezawa Minami",
     img: "umezawa_minami.jpg",
     opts: {
-      ngk46: [ "thirdgen" ],
+      ngk46: [ "thirdgen", "grad3" ],
       skrk46: [],
       hntk46: [],
+      gdt: true
     }
   },
   {
