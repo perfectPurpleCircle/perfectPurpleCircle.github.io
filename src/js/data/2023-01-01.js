@@ -46,6 +46,7 @@ dataSet[dataSetVersion].options = [
       { name: "5th Gen", tooltip: "5th generation", key: "5thgenHin", checked: false },
       { name: "1st Gen Graduated", tooltip: "Only graduated 1st Gen members", key: "grad1Hin", checked: false },
       { name: "2nd Gen Graduated", tooltip: "Only graduated 2nd Gen members", key: "grad2Hin", checked: false },
+      { name: "3rd Gen Graduated", tooltip: "Only graduated 3rd Gen members", key: "grad3Hin", checked: false },
     ]
   },
   {
@@ -1565,7 +1566,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["3rdgenHin"],
+      hntk46: ["3rdgenHin", "grad3Hin"],
+      gdt: true 
     }
   },
 
