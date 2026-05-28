@@ -618,9 +618,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Yoshida Ayano Christie",
     img: "yoshida_ayano_christie.jpg",
     opts: {
-      ngk46: [ "thirdgen" ],
+      ngk46: [ "thirdgen", "grad3" ],
       skrk46: [],
       hntk46: [],
+      gdt: true
     }
   },
   {
