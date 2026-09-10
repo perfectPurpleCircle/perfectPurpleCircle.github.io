@@ -1156,8 +1156,9 @@ dataSet[dataSetVersion].characterData = [
     img: "matsuda_rina.jpg",
     opts: {
       ngk46: [],
-      skrk46: [ "2ndgenSak" ],
-      hntk46: []
+      skrk46: [ "2ndgenSak","grad2Sak" ],
+      hntk46: [],
+      gdt: true,
     }
   },
   {
@@ -1559,7 +1560,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       ngk46: [],
       skrk46: [],
-      hntk46: ["3rdgenHin"],
+      hntk46: ["3rdgenHin", "grad3Hin"],
+      gdt: true 
     }
   },
   {
