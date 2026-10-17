@@ -530,9 +530,10 @@ dataSet[dataSetVersion].characterData = [
     name: "Ito Riria",
     img: "ito_riria.jpg",
     opts: {
-      ngk46: [ "thirdgen" ],
+      ngk46: [ "thirdgen", "grad3" ],
       skrk46: [],
       hntk46: [],
+      gdt: true
     }
   },
   {
